@@ -1,5 +1,5 @@
 export { Navbar } from './nav/Navbar'
-export { Introduction } from './banner/Introduction'
+export { Banner } from './banner/Banner'
 export { About } from './about/About'
 export { Skill } from './skill/Skill'
 export { Experience } from './experience/Experience'

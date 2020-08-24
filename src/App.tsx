@@ -2,7 +2,7 @@ import React from 'react'
 
 import {
   Navbar,
-  Introduction,
+  Banner,
   About,
   Skill,
   Experience,
@@ -14,12 +14,12 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Introduction />
-      <About />
+      <Banner />
+      {/* <About />
       <Skill />
       <Experience />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }
