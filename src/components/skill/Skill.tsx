@@ -1,6 +1,6 @@
 import React from 'react'
 import { SkillBlock } from './SkillBlock'
-import '../css/Skill.css'
+import '../../styles/Skill.css'
 
 export const Skill: React.FC = () => {
   return (

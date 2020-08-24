@@ -1,6 +1,6 @@
 import React from 'react'
 import { TimeLine } from './TimeLine'
-import '../css/Experience.css'
+import '../../styles/Experience.css'
 
 export const Experience: React.FC = () => {
   return (

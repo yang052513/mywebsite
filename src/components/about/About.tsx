@@ -1,6 +1,6 @@
 import React from 'react'
 import { AboutSection } from './AboutSection'
-import '../css/About.css'
+import '../../styles/About.css'
 
 export const About: React.FC = () => {
   return (

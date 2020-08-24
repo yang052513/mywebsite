@@ -1,7 +1,7 @@
 import React from 'react'
 import { IntroProfile } from './IntroProfile'
 import { IntroContent } from './IntroContent'
-import '../css/Introduction.css'
+import '../../styles/Introduction.css'
 
 export const Introduction: React.FC = () => {
   return (

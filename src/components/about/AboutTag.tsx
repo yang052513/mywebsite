@@ -1,6 +1,6 @@
 import React from 'react'
 import { AboutTagItem } from './AboutTagItem'
-import skillList from '../../data/skills'
+import skillList from '../../data/skills.json'
 
 export const AboutTag = () => {
   const tagComponents = skillList.map(tag => (

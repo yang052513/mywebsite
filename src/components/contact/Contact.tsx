@@ -1,6 +1,6 @@
 import React from 'react'
 import { ContactItem } from './ContactItem'
-import '../css/Contact.css'
+import '../../styles/Contact.css'
 
 export const Contact: React.FC = () => {
   return (
