@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import * as S from '../../styles/shared'
 
 const StyledContainer = styled.div`
-  margin: 200px 50px;
+  margin: 100px 50px;
 `
 const StyledGridWrapper = styled.div`
   /* display: grid;

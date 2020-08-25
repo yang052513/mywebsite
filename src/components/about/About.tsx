@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { StyledSectionTitle } from '../../styles/shared'
 
 const StyledContainer = styled.div`
-  margin: 0 50px;
+  margin: 100px 50px;
   /* padding: 50px 0; */
   /* border: 1px solid red; */
 `

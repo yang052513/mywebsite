@@ -1,14 +1,16 @@
 import React from 'react'
-import { TimeLine } from './TimeLine'
-import '../../styles/Experience.css'
+import { ExperienceTimeLine } from './ExperienceTimeLine'
+import styled from 'styled-components'
+import * as S from '../../styles/shared'
 
+const StyledContainer = styled.div`
+  margin: 100px 50px;
+`
 export const Experience: React.FC = () => {
   return (
-    <div id="experience-section" className="module-layout">
-      <h3 className="section-title" data-aos="fade-up">
-        EXPERIENCES
-      </h3>
-      <TimeLine />
-    </div>
+    <StyledContainer>
+      <S.StyledSectionTitle>Experiences</S.StyledSectionTitle>
+      <ExperienceTimeLine />
+    </StyledContainer>
   )
 }
