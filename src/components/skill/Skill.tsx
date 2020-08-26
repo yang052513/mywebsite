@@ -3,9 +3,6 @@ import { SkillBlock } from './SkillBlock'
 import styled from 'styled-components'
 import * as S from '../../styles/shared'
 
-const StyledContainer = styled.div`
-  margin: 100px 50px;
-`
 const StyledGridWrapper = styled.div`
   /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -17,7 +14,7 @@ const StyledGridWrapper = styled.div`
 
 export const Skill: React.FC = () => {
   return (
-    <StyledContainer>
+    <S.StyledContainer>
       <S.StyledSectionTitle>Skills</S.StyledSectionTitle>
       <StyledGridWrapper>
         <SkillBlock
@@ -40,6 +37,6 @@ export const Skill: React.FC = () => {
                         developing courses during my spare time to extend my knowledge."
         />{' '}
       </StyledGridWrapper>
-    </StyledContainer>
+    </S.StyledContainer>
   )
 }

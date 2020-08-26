@@ -1,13 +1,7 @@
 import React from 'react'
 import { AboutImage, AboutContent } from './index'
 import styled from 'styled-components'
-import { StyledSectionTitle } from '../../styles/shared'
-
-const StyledContainer = styled.div`
-  margin: 100px 50px;
-  /* padding: 50px 0; */
-  /* border: 1px solid red; */
-`
+import * as S from '../../styles/shared'
 
 const StyledWrapper = styled.div`
   display: flex;
@@ -17,12 +11,12 @@ const StyledWrapper = styled.div`
 
 export const About: React.FC = () => {
   return (
-    <StyledContainer>
-      <StyledSectionTitle>About Me</StyledSectionTitle>
+    <S.StyledContainer>
+      <S.StyledSectionTitle>About Me</S.StyledSectionTitle>
       <StyledWrapper>
         <AboutImage />
         <AboutContent />
       </StyledWrapper>
-    </StyledContainer>
+    </S.StyledContainer>
   )
 }

@@ -6,17 +6,19 @@ import {
   About,
   Skill,
   Experience,
+  Portfolio,
   Footer,
 } from './components/index'
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Banner />
+      {/* <Navbar /> */}
+      {/* <Banner />
       <About />
       <Skill />
-      <Experience />
+      <Experience /> */}
+      <Portfolio />
       <Footer />
     </div>
   )
