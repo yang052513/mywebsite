@@ -8,6 +8,7 @@ import {
   Experience,
   Portfolio,
   Blog,
+  Contact,
   Footer,
 } from './components/index'
 
@@ -21,6 +22,7 @@ function App() {
       <Experience />
       <Portfolio />
       <Blog />
+      <Contact />
       <Footer />
     </div>
   )

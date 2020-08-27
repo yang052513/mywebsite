@@ -14,7 +14,7 @@ const StyledFooter = styled.div`
 export const Footer: React.FC = () => {
   return (
     <StyledFooter>
-      <p>All right reserved Yang Li @2020</p>
+      <p>DESIGNED BY YANG LI @2020</p>
     </StyledFooter>
   )
 }
