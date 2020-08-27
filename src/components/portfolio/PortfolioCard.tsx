@@ -43,7 +43,7 @@ const StyledPlyBtn = styled.i`
 const StyledInfoWrapper = styled.div`
   flex: 1 1 200px;
   padding: 25px;
-  background-color: #ecf7fd;
+  background-color: #f8f8f8;
 `
 
 const StyledTitle = styled.h3`
