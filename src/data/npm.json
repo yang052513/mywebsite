@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Feedback Modal",
+    "desc": "A React animated feedback modal for froms, alert, confirmation...etc",
+    "preview": "feedback.gif",
+    "tags": [
+      "Modal",
+      "TypeScript",
+      "Styled Components",
+      "CSSTransition",
+      "React"
+    ],
+    "category": "React Components",
+    "link": "/budget"
+  },
+  {
+    "title": "Animated Icon",
+    "desc": "Animaited icon while hovering, used for social media icon or others",
+    "preview": "icon.gif",
+    "tags": [
+      "Icon",
+      "Font Awesome",
+      "Styled Components",
+      "CSSTransition",
+      "React"
+    ],
+    "category": "React Components",
+    "link": "/budget"
+  },
+  {
+    "title": "Loading Animation",
+    "desc": "A smooth loading animation components while launching content from server",
+    "preview": "loading.gif",
+    "tags": [
+      "Loading",
+      "TypeScript",
+      "Styled Components",
+      "CSSTransition",
+      "React"
+    ],
+    "category": "React Components",
+    "link": "/budget"
+  },
+  {
+    "title": "Scroll Top Button",
+    "desc": "A react scroll to top button with flexible custom position and apparence",
+    "preview": "scroll.gif",
+    "tags": ["Scroll", "Button", "Styled Components", "CSSTransition", "React"],
+    "category": "React Components",
+    "link": "/budget"
+  },
+  {
+    "title": "Snow Particle",
+    "desc": "A beautiful snow effect built with Sass",
+    "preview": "snow.gif",
+    "tags": ["Particle", "TypeScript", "Sass", "CSSTransition", "React"],
+    "category": "React Components",
+    "link": "/budget"
+  }
+]

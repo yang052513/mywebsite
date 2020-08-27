@@ -30,7 +30,7 @@ const StyledButton = styled.button`
 `
 
 export const Portfolio: React.FC = () => {
-  const [panel, setPanel] = useState<string>('video')
+  const [panel, setPanel] = useState<string>('npm')
 
   const handleSwitch = (tab: string) => {
     setPanel(tab)
@@ -43,9 +43,9 @@ export const Portfolio: React.FC = () => {
         <StyledButton onClick={() => handleSwitch('web')}>
           Wep and Mobile Apps
         </StyledButton>
-        <StyledButton onClick={() => handleSwitch('ui')}>
+        {/* <StyledButton onClick={() => handleSwitch('ui')}>
           UI/UX Design
-        </StyledButton>
+        </StyledButton> */}
         <StyledButton onClick={() => handleSwitch('npm')}>
           NPM Packages
         </StyledButton>
