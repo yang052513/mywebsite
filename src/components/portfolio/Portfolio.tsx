@@ -39,6 +39,10 @@ export const Portfolio: React.FC = () => {
   return (
     <S.StyledContainer>
       <S.StyledSectionTitle data-aos="fade-up">Portfolio</S.StyledSectionTitle>
+      <S.StyledSectionSubtitle data-aos="fade-up">
+        I learned the most when I actually started doing it.
+      </S.StyledSectionSubtitle>
+
       <StyledSelectContainer data-aos="fade-up">
         <StyledButton onClick={() => handleSwitch('web')}>
           Wep and Mobile Apps

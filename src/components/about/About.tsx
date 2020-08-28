@@ -13,6 +13,10 @@ export const About: React.FC = () => {
   return (
     <S.StyledContainer data-aos="fade-up">
       <S.StyledSectionTitle>About Me</S.StyledSectionTitle>
+      <S.StyledSectionSubtitle>
+        Love Coding, Always Learning, Competitive Powerlifter, Animation for
+        Life.
+      </S.StyledSectionSubtitle>
       <StyledWrapper>
         <AboutImage />
         <AboutContent />

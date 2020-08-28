@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
+import { CSSTransition } from 'react-transition-group'
 
 const StyledCard = styled.div`
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -13,15 +14,19 @@ const StyledDetails = styled.div`
   width: 100%;
   height: 100%;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `
 const StyledTitle = styled.h3`
   text-align: center;
   font-size: 15px;
-  padding: 25px;
+  padding: 10px 25px;
 `
 const StyledDesc = styled.p`
-  padding: 25px;
+  padding: 10px 25px;
   text-align: center;
+  font-size: 14px;
 `
 const StyledImage = styled.img`
   width: 500px;
@@ -75,13 +80,18 @@ export const PortfolioNPMCard: React.FC<Props> = ({
         src={require(`../../assets/images/npm/${image}`)}
         alt=""
       ></StyledImage>
-      {show && (
+
+      <CSSTransition in={show} timeout={500} classNames="fade" unmountOnExit>
         <StyledDetails>
-          <StyledTitle>{title}</StyledTitle>
-          <StyledDesc>{desc}</StyledDesc>
-          <StyledLink>Link</StyledLink>
+          <div>
+            <StyledTitle>{title}</StyledTitle>
+            <StyledDesc>{desc}</StyledDesc>
+            <div style={{ textAlign: 'center' }}>
+              <StyledLink>Link</StyledLink>
+            </div>
+          </div>
         </StyledDetails>
-      )}
+      </CSSTransition>
     </StyledCard>
   )
 }

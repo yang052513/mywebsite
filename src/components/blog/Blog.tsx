@@ -17,6 +17,10 @@ export const Blog: React.FC = () => {
       <S.StyledSectionTitle data-aos="fade-up">
         Recent Blogs
       </S.StyledSectionTitle>
+      <S.StyledSectionSubtitle data-aos="fade-up">
+        I am not a good writer, and I just want to share my thoughts.
+      </S.StyledSectionSubtitle>
+
       <StyledBlogList>{blogList}</StyledBlogList>
     </S.StyledContainer>
   )

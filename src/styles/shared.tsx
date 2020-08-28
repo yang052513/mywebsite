@@ -10,9 +10,14 @@ export const StyledSectionTitle = styled.h3`
   padding: 20px 10px;
   color: rgb(21, 21, 21);
   text-transform: uppercase;
-  margin-bottom: 30px;
 `
-
+export const StyledSectionSubtitle = styled.p`
+  font-size: 18px;
+  color: #a7a7a7;
+  text-align: center;
+  margin-bottom: 80px;
+  /* font-style: italic; */
+`
 export const StyledText = styled.p`
   color: rgb(70, 70, 70);
   line-height: 1.7em;

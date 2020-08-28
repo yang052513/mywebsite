@@ -61,6 +61,10 @@ export const Contact: React.FC = () => {
   return (
     <S.StyledContainer>
       <S.StyledSectionTitle data-aos="fade-up">Contact Me</S.StyledSectionTitle>
+      <S.StyledSectionSubtitle data-aos="fade-up">
+        Wanna grap a coffee sometime?
+      </S.StyledSectionSubtitle>
+
       <StyledForm data-aos="fade-up">
         <StyledInputWrapper>
           <p>Name</p>
