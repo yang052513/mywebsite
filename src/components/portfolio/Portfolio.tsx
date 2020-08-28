@@ -38,8 +38,8 @@ export const Portfolio: React.FC = () => {
 
   return (
     <S.StyledContainer>
-      <S.StyledSectionTitle>Portfolio</S.StyledSectionTitle>
-      <StyledSelectContainer>
+      <S.StyledSectionTitle data-aos="fade-up">Portfolio</S.StyledSectionTitle>
+      <StyledSelectContainer data-aos="fade-up">
         <StyledButton onClick={() => handleSwitch('web')}>
           Wep and Mobile Apps
         </StyledButton>

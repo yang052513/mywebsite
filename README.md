@@ -1,5 +1,5 @@
 # My Personal Website
 
-> https://yangliweb.firebaseapp.com
+> https://yangli.netlify.app
 
 ![](public/resource/banner.png)

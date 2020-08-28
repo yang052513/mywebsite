@@ -15,5 +15,5 @@ const StyledImage = styled.img`
 `
 
 export const AboutImage: React.FC = () => {
-  return <StyledImage src={about} alt=""></StyledImage>
+  return <StyledImage src={about} alt="" data-aos="fade-up"></StyledImage>
 }

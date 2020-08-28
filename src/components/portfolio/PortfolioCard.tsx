@@ -5,7 +5,7 @@ const StyledCard = styled.div`
   display: flex;
   width: 70%;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   @media (max-width: 800px) {
     width: 100%;
   }
@@ -139,7 +139,7 @@ export const PortfolioCard: React.FC<Props> = ({
   const [showPlyBtn, setShowPlyBtn] = useState<boolean>(false)
 
   return (
-    <StyledCard>
+    <StyledCard data-aos={isEven ? 'fade-left' : 'fade-right'}>
       {isEven && (
         <StyledImageContainer
           onMouseEnter={() => setShowPlyBtn(true)}

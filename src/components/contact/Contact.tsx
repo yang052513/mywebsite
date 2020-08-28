@@ -60,8 +60,8 @@ const StyledButton = styled.button`
 export const Contact: React.FC = () => {
   return (
     <S.StyledContainer>
-      <S.StyledSectionTitle>Contact Me</S.StyledSectionTitle>
-      <StyledForm>
+      <S.StyledSectionTitle data-aos="fade-up">Contact Me</S.StyledSectionTitle>
+      <StyledForm data-aos="fade-up">
         <StyledInputWrapper>
           <p>Name</p>
           <StyledInput type="text"></StyledInput>

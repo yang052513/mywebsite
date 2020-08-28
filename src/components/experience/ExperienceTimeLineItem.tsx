@@ -68,7 +68,7 @@ export const ExperienceTimeLineItem: React.FC<Props> = ({
   time,
 }) => {
   return (
-    <div>
+    <div data-aos="fade-up">
       <StyledContent>
         <StyledTitle>{title}</StyledTitle>
         <StyledPosition>{position}</StyledPosition>

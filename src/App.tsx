@@ -1,5 +1,6 @@
 import React from 'react'
 import { Scroll } from 'react-scroll-top-btn'
+import AOS from 'aos'
 
 import {
   Navbar,
@@ -14,6 +15,13 @@ import {
 } from './components/index'
 
 function App() {
+  AOS.init({
+    offset: 300,
+    duration: 1000,
+    easing: 'ease',
+    delay: 100,
+  })
+
   return (
     <div>
       <Navbar />

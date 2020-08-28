@@ -25,7 +25,7 @@ const StyledImage = styled.img`
 
 export const SkillBlock: React.FC<Props> = ({ imgUrl, title, content }) => {
   return (
-    <StyledContainer>
+    <StyledContainer data-aos="fade-right">
       <StyledImage src={imgUrl} alt="" />
       <StyledTitle>{title}</StyledTitle>
       <S.StyledText>{content}</S.StyledText>

@@ -14,7 +14,9 @@ export const Blog: React.FC = () => {
   const blogList = blogData.map(blog => <BlogCard blog={blog} />)
   return (
     <S.StyledContainer>
-      <S.StyledSectionTitle>Recent Blogs</S.StyledSectionTitle>
+      <S.StyledSectionTitle data-aos="fade-up">
+        Recent Blogs
+      </S.StyledSectionTitle>
       <StyledBlogList>{blogList}</StyledBlogList>
     </S.StyledContainer>
   )

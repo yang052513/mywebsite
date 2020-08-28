@@ -10,7 +10,7 @@ const StyledContainer = styled.div`
 
 export const AboutContent: React.FC = () => {
   return (
-    <StyledContainer>
+    <StyledContainer data-aos="fade-up">
       <S.StyledText>
         I'm currently Term 3 Computer Systems Technology student at BCIT. I have
         extensive knowledge and experience of front-end development including

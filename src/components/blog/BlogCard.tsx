@@ -55,7 +55,7 @@ interface Props {
 
 export const BlogCard: React.FC<Props> = ({ blog }) => {
   return (
-    <StyledCard>
+    <StyledCard data-aos="fade-left">
       <StyledBanner
         src={require(`../../assets/images/blog/${blog.banner}`)}
         alt=""

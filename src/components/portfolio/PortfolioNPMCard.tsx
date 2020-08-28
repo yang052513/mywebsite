@@ -69,6 +69,7 @@ export const PortfolioNPMCard: React.FC<Props> = ({
     <StyledCard
       onMouseEnter={() => setShow(true)}
       onMouseLeave={() => setShow(false)}
+      data-aos="fade-up"
     >
       <StyledImage
         src={require(`../../assets/images/npm/${image}`)}

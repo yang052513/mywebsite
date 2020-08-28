@@ -11,7 +11,7 @@ const StyledWrapper = styled.div`
 
 export const About: React.FC = () => {
   return (
-    <S.StyledContainer>
+    <S.StyledContainer data-aos="fade-up">
       <S.StyledSectionTitle>About Me</S.StyledSectionTitle>
       <StyledWrapper>
         <AboutImage />

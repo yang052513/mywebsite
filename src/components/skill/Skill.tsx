@@ -15,7 +15,7 @@ const StyledGridWrapper = styled.div`
 export const Skill: React.FC = () => {
   return (
     <S.StyledContainer>
-      <S.StyledSectionTitle>Skills</S.StyledSectionTitle>
+      <S.StyledSectionTitle data-aos="fade-up">Skills</S.StyledSectionTitle>
       <StyledGridWrapper>
         <SkillBlock
           imgUrl="resource/uidesign.png"

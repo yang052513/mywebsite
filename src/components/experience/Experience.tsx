@@ -6,7 +6,9 @@ import * as S from '../../styles/shared'
 export const Experience: React.FC = () => {
   return (
     <S.StyledContainer>
-      <S.StyledSectionTitle>Experiences</S.StyledSectionTitle>
+      <S.StyledSectionTitle data-aos="fade-up">
+        Experiences
+      </S.StyledSectionTitle>
       <ExperienceTimeLine />
     </S.StyledContainer>
   )
