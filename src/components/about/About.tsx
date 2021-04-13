@@ -14,8 +14,7 @@ export const About: React.FC = () => {
     <S.StyledContainer data-aos="fade-up">
       <S.StyledSectionTitle id="about"> About Me</S.StyledSectionTitle>
       <S.StyledSectionSubtitle>
-        Love Coding, Always Learning, Competitive Powerlifter, Animation for
-        Life.
+        Love Coding, Competitive Powerlifter, ACG fans.
       </S.StyledSectionSubtitle>
       <StyledWrapper>
         <AboutImage />

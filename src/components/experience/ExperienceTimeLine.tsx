@@ -123,7 +123,7 @@ export const ExperienceTimeLine: React.FC = () => {
             position="Computer System Technology Diploma"
             duty="Created multiple web porjects with peers by using html, css,
                             and javascript. Proficient programming with C and Java."
-            time="September 2019 - April 2021"
+            time="September 2019 - June 2021"
           />
         </StyledTimelineItem>
 

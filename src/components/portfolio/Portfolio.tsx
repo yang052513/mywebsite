@@ -45,7 +45,7 @@ export const Portfolio: React.FC = () => {
     <S.StyledContainer id="portfolio">
       <S.StyledSectionTitle data-aos="fade-up">Portfolio</S.StyledSectionTitle>
       <S.StyledSectionSubtitle data-aos="fade-up">
-        I learned the most when I actually started doing it.
+        Learn by Doing.
       </S.StyledSectionSubtitle>
 
       <StyledSelectContainer data-aos="fade-up">

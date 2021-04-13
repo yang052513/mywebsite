@@ -1,7 +1,7 @@
 [
   {
     "title": "Projecthub",
-    "desc": "🔖 wow such a lovely project management dashboard. A full stack web app that intergeates individual and team project status managerment, periodic anlaysis, socal system including story share and chat feature. Included fully customize setting to custom your app.",
+    "desc": "🔖 A full-stack project management application that extended with friend system, group project request, project periodic analysis..and even more! Included fully customize setting to custom your app theme.",
     "banner": "projecthub.png",
     "tags": ["React", "Typescript", "Sass", "D3", "Sketch", "Firebase"],
     "demo": "https://projecthub-yang.web.app/",
@@ -9,7 +9,7 @@
   },
   {
     "title": "Course Flex",
-    "desc": "🗓 Coquitlam college course schedule generator with timetable preview. The app allows students filter and search courses easily without submit a form then direct to a new page everytime Then the app will generate a timetable for student to preview the course schedule. Easy and quick. No more long time gap between classes.",
+    "desc": "🗓 A course schedule preview generator that intended to help students to find the course combinations they like. No more long time gap between classes. Used Python for course scraping every month and saved in MongoDB",
     "banner": "courseflex.png",
     "tags": ["React", "Node", "Express", "MongoDB", "Heroku", "Python"],
     "demo": "https://courseflex.herokuapp.com/",
@@ -17,7 +17,7 @@
   },
   {
     "title": "No Pandemic",
-    "desc": "💊 A platform to prevent pandemic and panic. A project for BCIT CST level 1 and level competition. Awarded as Most Creative and Best Teamwork prize among 60 teams.",
+    "desc": "💊 A platform to prevent pandemic and panic. Awarded as Most Creative and Best Teamwork prize among 60 teams.",
     "banner": "nopandemic.png",
     "tags": ["React", "Sass", "Google Map APIs", "AdobeXD", "Firebase"],
     "demo": "https://covaid-14.web.app/",

@@ -10,7 +10,7 @@ export const Experience: React.FC = () => {
       </S.StyledSectionTitle>
 
       <S.StyledSectionSubtitle data-aos="fade-up">
-        All the steps in my journey.
+        The Journey.
       </S.StyledSectionSubtitle>
       <ExperienceTimeLine />
     </S.StyledContainer>

@@ -25,7 +25,7 @@ export const BannerProfileContact: React.FC = () => {
       />
       <BannerProfileContactItem
         icon="fas fa-map-marker-alt"
-        text="yangblog.org"
+        text="Vancouver, Canada"
       />
     </StyledContainer>
   )

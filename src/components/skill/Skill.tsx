@@ -17,29 +17,26 @@ export const Skill: React.FC = () => {
     <S.StyledContainer id="skill">
       <S.StyledSectionTitle data-aos="fade-up">Skills</S.StyledSectionTitle>
       <S.StyledSectionSubtitle data-aos="fade-up">
-        People like to see beautiful things, so all the effort on design are
-        worth.
+        Always Learning.
       </S.StyledSectionSubtitle>
       <StyledGridWrapper>
         <SkillBlock
           imgUrl="resource/uidesign.png"
           title="UI/UX Design"
           content="I am proficient with Adobe Illustrator, Photoshop, Xd to design
-                        elegent Web page layout. In addition, I have a lot of project experience with Adobe Affects that can
-                        be utilized for video touch up."
+                        elegent responsive layout. I also have a lot of music video project experience with Adobe Affects."
         />
         <SkillBlock
           imgUrl="resource/webdesign.png"
           title="Web Development"
-          content="I am a full stack web developer with expereince of html, css,
-                        javascript, jquery, MongoDB, React, and others to create a dynamic and fully function websites"
+          content="I am a full stack web developer with expereince of basic html, css,
+                        javascript, MySQL, MongoDB, React, and others tools to create dynamic websites."
         />
         <SkillBlock
           imgUrl="resource/develop.png"
-          title="IOS App Development"
-          content="I am also able to create IOS app with swift. I usually study IOS
-                        developing courses during my spare time to extend my knowledge."
-        />{' '}
+          title="Mobile App Development"
+          content="I am familiar with React Natvie for cross-platform development, and also have some project experience with Android and Swift ios development"
+        />
       </StyledGridWrapper>
     </S.StyledContainer>
   )

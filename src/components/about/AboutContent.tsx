@@ -12,15 +12,13 @@ export const AboutContent: React.FC = () => {
   return (
     <StyledContainer data-aos="fade-up">
       <S.StyledText>
-        I'm currently Term 3 Computer Systems Technology student at BCIT. I have
-        extensive knowledge and experience of front-end development including
-        React, Redux, Typescript, Material UI, Respsonive Layout Design, UI/UX
-        design, and RESTful API designs. I also like to develop IOS app on my
-        free time.
+        A BCIT Computer System Technology graduate. I have
+        extensive knowledge and project experience of front-end development.
+        I am confident with React, Typescript, Material UI, Sass, UI/UX, and RESTful API designs.
       </S.StyledText>
       <S.StyledText>
         Beside my academic and career, I am a competitive powerlifter competed
-        at Provincial Champion. My dream is one day I could step into the
+        at Provincial Champion. My dream is one day step into the
         Canadian Powerlifting Union Stage and competed in national level.
       </S.StyledText>
 
